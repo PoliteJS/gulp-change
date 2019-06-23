@@ -11,7 +11,7 @@ File content change utility for [GulpJS](http://gulpjs.com/).
 ## Sync Usage
     
     var gulp = require('gulp');
-    var change = require('change');
+    var change = require('gulp-change');
     
     function performChange(content) {
         return content.replace(/foo/g, 'FOO');
